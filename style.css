@@ -1,14 +1,37 @@
-:root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+div {
+    border: 3px solid #ffd000;
+    background-color: #f1f51e66;
+    padding: 0 5px;
 }
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+
+.exemplo-static {
+    position: static;
 }
-* {
-    margin: 0;
-    padding: 0;
+
+.exemplo-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.exemplo-relative {
+    position: relative;
+    left: 25px;
+}
+
+.exemplo-relative-02 {
+    position: relative;
+    height: 100px;
+}
+
+.exemplo-absolute {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.exemplo-sticky {
+    position: sticky;
+    bottom: 0;
+    top: 0;
 }
